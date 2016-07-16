@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="5dip"
+    android:padding="3dip">
+
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:text="Quick Bites"
+        android:layout_columnWeight="1"
+        android:id="@+id/textViewName"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:paddingBottom ="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quick_bites" />
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:text="Cool Drinks"
+        android:layout_columnWeight="1"
+        android:id="@+id/textViewName1"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:paddingBottom ="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cool_drinks" />
+   </LinearLayout>
